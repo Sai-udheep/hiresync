@@ -58,7 +58,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
                 >
                   {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
-                <h1 className="ml-2 text-xl font-semibold text-hrms-600">HireSync</h1>
+                <img src="/logo.svg" alt="HireSync Logo" className="h-8 ml-2" />
               </div>
 
               {/* Right side navbar items */}

@@ -98,7 +98,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
     <div className="flex h-full w-64 flex-col bg-sidebar border-r">
       <div className="flex h-16 items-center justify-between border-b border-sidebar-border px-4">
         <Link to="/dashboard" className="flex items-center">
-          <span className="text-xl font-bold text-white">HireSync</span>
+          <img src="/logo.svg" alt="HireSync Logo" className="h-8" />
         </Link>
         <button
           onClick={closeSidebar}
