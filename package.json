@@ -1,9 +1,9 @@
 {
-  "name": "hrms-system",
+  "name": "hiresync",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "HRMS System by Udheep, Ayush and Shrey",
+  "description": "HireSync - A comprehensive Human Resource Management System by Udheep, Ayush and Shrey",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
