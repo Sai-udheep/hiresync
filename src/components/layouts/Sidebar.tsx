@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { useAuth, UserRole } from "@/contexts/AuthContext";
 import {
@@ -99,7 +98,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
     <div className="flex h-full w-64 flex-col bg-sidebar border-r">
       <div className="flex h-16 items-center justify-between border-b border-sidebar-border px-4">
         <Link to="/dashboard" className="flex items-center">
-          <span className="text-xl font-bold text-white">TalentFlow HR</span>
+          <span className="text-xl font-bold text-white">HRMS System</span>
         </Link>
         <button
           onClick={closeSidebar}
@@ -132,7 +131,7 @@ const Sidebar = ({ closeSidebar }: SidebarProps) => {
       </div>
       <div className="border-t border-sidebar-border p-4">
         <div className="text-xs text-sidebar-foreground">
-          <p>© 2025 TalentFlow HR</p>
+          <p>© 2024 HRMS System by Udheep, Ayush and Shrey</p>
           <p>Version 1.0.0</p>
         </div>
       </div>

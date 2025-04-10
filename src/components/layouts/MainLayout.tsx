@@ -1,4 +1,3 @@
-
 import { ReactNode, useState } from "react";
 import { useAuth } from "@/contexts/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
@@ -59,7 +58,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
                 >
                   {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>
-                <h1 className="ml-2 text-xl font-semibold text-hrms-600">TalentFlow HR</h1>
+                <h1 className="ml-2 text-xl font-semibold text-hrms-600">HRMS System</h1>
               </div>
 
               {/* Right side navbar items */}
