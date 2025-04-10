@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/talent-flow-hr/', // Base URL for GitHub Pages
+  base: '/hiresync/', // Base URL for GitHub Pages
   server: {
     host: "::",
     port: 8080,

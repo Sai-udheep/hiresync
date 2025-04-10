@@ -4,7 +4,7 @@ import App from './App.tsx'
 import './index.css'
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/talent-flow-hr">
+  <BrowserRouter basename="/hiresync">
     <App />
   </BrowserRouter>
 );
